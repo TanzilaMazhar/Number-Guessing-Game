@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(46, 46, 159);
+}
+
+.game {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.game h1 {
+    background-color: rgb(17, 17, 105);
+    color: white;
+    margin: 20px;
+    font-weight: 800;
+}
+
+.line1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(12, 100, 200);
+}
+
+#guessField {
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid rgb(108, 105, 105);
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 800;
+    color: rgb(141, 80, 198);
+    border-radius: 5px;
+}
+
+#submitGuess {
+    height: 55px;
+    width: 150px;
+    background-color: rgb(26, 54, 156);
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.show-output {
+    margin-left: 80px;
+    height: 50px;
+    width: 260px;
+    padding: 15px 45px;
+    box-shadow: 5px 5px 63px 17px #D6E3F4;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#hint {
+    margin-top: 30px;
+    color: rgb(77, 77, 231);
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/* media query for mobile */
+@media (max-width:767px) {
+    .game {
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .game h1 {
+        font-size: 25px;
+        margin: 20px;
+        font-weight: 600;
+    }
+
+    .line1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #guessField {
+        height: 45px;
+        width: 170px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    #submitGuess {
+        height: 50px;
+        width: 120px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .show-output {
+        margin-left: 50px;
+        height: 40px;
+        width: 200px;
+        padding: 15px 45px;
+        font-size: 16px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #hint {
+        margin-top: 20px;
+        font-size: 19px;
+        line-height: 48px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:424px) {
+    .game {
+        height: 350px;
+        width: 350px;
+    }
+
+    .game h1 {
+        font-size: 22px;
+        margin: 20px;
+        font-weight: 600;
+    }
+
+    .line1 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #guessField {
+        height: 40px;
+        width: 150px;
+        font-size: 17px;
+        line-height: 44px;
+        margin-top: 20px;
+    }
+
+    #submitGuess {
+        height: 45px;
+        width: 100px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .show-output {
+        margin-left: 50px;
+        height: 30px;
+        width: 170px;
+        padding: 15px 45px;
+        font-size: 14px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #hint {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 40px;
+        font-weight: bold;
+
+    }
+}
